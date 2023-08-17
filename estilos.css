@@ -1,0 +1,59 @@
+.menu{
+    list-style: none;
+    padding: 0;
+    background: rgb(218, 214, 214);
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 15px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: white;
+    color: blueviolet;
+}
+
+.menu ul{
+    text-align: end;
+}
+
+.buscador{
+    text-align: right;
+}
+
+.gray-border {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+
+}
+
+.gray-border input {
+    margin-bottom: 8px;
+    
+    margin-left: 8px;
+}
+
+.buton input{
+    text-align: center;
+    font-size: 18px;
+    background-color: #8A2BE2;
+    width: 150px;
+    height: 40px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center
+}
